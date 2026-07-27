@@ -1,35 +1,58 @@
+import Header from "../components/Header";
+
 export default function Home() {
   return (
-    <main style={{ padding: "40px", fontFamily: "Arial" }}>
-      <h1>Couto & Cortes Soluções 3D</h1>
+    <>
+      <Header />
 
-      <h2>Impressão 3D de alta precisão</h2>
+      <main style={{ padding: "40px" }}>
 
-      <p>
-        Produtos personalizados, peças exclusivas e soluções criativas
-        produzidas em impressão 3D.
-      </p>
+        <h1>
+          Couto & Cortes Soluções 3D
+        </h1>
 
-      <button>
-        Solicitar orçamento pelo WhatsApp
-      </button>
+        <h2>
+          Impressão 3D de alta precisão
+        </h2>
 
-      <hr />
+        <p>
+          Criamos produtos personalizados, peças exclusivas
+          e soluções criativas através da tecnologia de
+          impressão 3D.
+        </p>
 
-      <h2>Lançamentos</h2>
 
-      <p>
-        Em breve nossos novos produtos estarão disponíveis aqui.
-      </p>
+        <a
+          href="https://wa.me/"
+          target="_blank"
+        >
+          <button>
+            Solicitar orçamento pelo WhatsApp
+          </button>
+        </a>
 
-      <h2>Produtos</h2>
 
-      <p>
-        • Produtos prontos para entrega<br />
-        • Produtos personalizados<br />
-        • Brindes corporativos<br />
-        • Projetos sob medida
-      </p>
-    </main>
+        <h2>
+          🚀 Lançamentos
+        </h2>
+
+        <p>
+          Novos produtos em destaque aparecerão aqui.
+        </p>
+
+
+        <h2>
+          Nossos produtos
+        </h2>
+
+        <p>
+          • Produtos prontos para entrega<br />
+          • Produtos personalizados<br />
+          • Brindes corporativos<br />
+          • Projetos exclusivos
+        </p>
+
+      </main>
+    </>
   );
 }
