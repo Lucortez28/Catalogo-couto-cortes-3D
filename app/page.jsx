@@ -1,4 +1,6 @@
 import Header from "../components/Header";
+import ProductList from "../components/ProductList";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -41,16 +43,7 @@ export default function Home() {
         </p>
 
 
-        <h2>
-          Nossos produtos
-        </h2>
-
-        <p>
-          • Produtos prontos para entrega<br />
-          • Produtos personalizados<br />
-          • Brindes corporativos<br />
-          • Projetos exclusivos
-        </p>
+      <ProductList />
 
       </main>
     </>
